@@ -3,3 +3,6 @@ Repositório para sincronização de todos os testes, arquivos e documentos do m
 
 Teste1
 Teste2
+git add .
+git commit -m "descrição"
+git push
