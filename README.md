@@ -5,7 +5,7 @@ Teste1
 Teste2
 1 git add .
 2 git commit -m "descrição"
-3 git push
+3 git pushgit 
 
 #### COMANDOS IGUAIS:
 
