@@ -19,3 +19,5 @@ cp – Copia arquivos e diretórios:
 mv – Move arquivos e diretórios. Também é usado para renomear arquivos. Seu uso é semelhante ao comando de cópia (‘cp’).
 rm –r Remove arquivos e diretórios:
 clear – Limpa todo o conteúdo 
+
+Eu, Vinícius, moro na cidade de Florianópolis.
