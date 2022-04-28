@@ -115,3 +115,24 @@ PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
 * Estruturas de repetição
 * Manipulação de vetores
 * Manipulação de matrizes
+
+### Exercicio:
+
+* Escolha uma das opções abaixo e descreva de forma lógica em 10 passos:
+ 1. sacar dinheiro
+ 2. tomar banho
+ 3. comer pizza
+
+*<div align="center">
+COMER PIZZA</div>*
+
+1. Pegar telefone
+2. Abrir aplicativo ifood
+3. Escolher uma pizza
+4. Escolher os sabores
+5. Escolher forma de pagamento
+6. Finalizar pedido
+7. Esperar o entregador
+8. Receber o pedido
+9. Fazer o pagamento
+10. Comer a pizza
