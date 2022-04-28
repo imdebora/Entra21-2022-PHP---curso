@@ -125,12 +125,12 @@ CONTEÚDO ABORDADO:</div>**
 ## *Exercicio:*
 
 * Escolha uma das opções abaixo e descreva de forma lógica em 10 passos:
- 1. sacar dinheiro
- 2. tomar banho
- 3. comer pizza
+ 1. sacar dinheiro 💸
+ 2. tomar banho 🚿
+ 3. comer pizza 🍕
 
 **<div align="center">
-COMER PIZZA</div>**
+🍕 COMER PIZZA 🍕</div>**
 
 1. Pegar telefone
 2. Abrir aplicativo ifood
