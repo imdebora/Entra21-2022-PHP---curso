@@ -19,6 +19,49 @@
  2. Kanban
 * Git e Github
 
+### Princípios:
+
+- Satisfazer cliente
+- Mudanças ➡️ aceitar
+- Motivação
+
+### Simplicidade:
+A arte de maximizar a quantidade de trabalho que não precisa ser feito.
+
+#### *Colaboração com o cliente mais que negociação de contratos.*
+
+<div align="center">
+
+### Ciclo:
+
+PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
+
+# *Scrum:*
+* 1. Transparência
+* 2. Inspeção
+* 3. Adpatção
+
+### Valores do Scrum:
+*  Coragem
+- Foco
+- Compromentimento 
+- Respeito
+- Abertura
+
+### Eventos:
+
+- Sprint
+- Sprint Planning
+- Daily Scrum
+- sprint review
+- sprint
+
+### Artefatos:
+
+- BackLog Produto
+- BackLog Sprint
+- Incremento
+
 <div align="center">
 
 ### Comandos git
