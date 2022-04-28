@@ -9,10 +9,8 @@
 
 #### Objetivo: Recepcionar os alunos e introduzir conceitos de metodologias ágeis.
 
-<div align="center">
-
-### Conteúdo abordado:
-</div>
+**<div align="center">
+CONTEÚDO ABORDADO:</div>**
 
 * Frameworks Agéis:
  1. Scrum
@@ -89,9 +87,8 @@ PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
 
 #### Objetivo: Lógica de programação e conceitos base da linguagem PHP.
 
-<div align="center">
-
-### Conteúdo abordado:</div>
+**<div align="center">
+CONTEÚDO ABORDADO:</div>**
 
 * Introdução à lógica
  1. O que são algoritmos
@@ -123,8 +120,8 @@ PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
  2. tomar banho
  3. comer pizza
 
-*<div align="center">
-COMER PIZZA</div>*
+**<div align="center">
+COMER PIZZA</div>**
 
 1. Pegar telefone
 2. Abrir aplicativo ifood
