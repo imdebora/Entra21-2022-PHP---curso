@@ -116,7 +116,7 @@ CONTEÚDO ABORDADO:</div>**
 
 ## O que são algoritmos?
 
-### Exercicio:
+## *Exercicio:*
 
 * Escolha uma das opções abaixo e descreva de forma lógica em 10 passos:
  1. sacar dinheiro
@@ -136,3 +136,19 @@ COMER PIZZA</div>**
 8. Receber o pedido
 9. Fazer o pagamento
 10. Comer a pizza
+
+### **Linguagens de progamação utilizadas no passado:**
+
+* Assembly
+* Fortran
+* Pascal
+* Clipper
+* Cobol
+* C
+* Visual c
+* Delphi
+* Visual basic
+* Java
+* Asp
+* Dataflex
+* Bash
