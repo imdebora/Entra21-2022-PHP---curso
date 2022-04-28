@@ -42,7 +42,7 @@ PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
 * 3. Adpatção
 
 ### Valores do Scrum:
-*  Coragem
+- Coragem
 - Foco
 - Compromentimento 
 - Respeito
