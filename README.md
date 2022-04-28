@@ -84,3 +84,34 @@ PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
  1. Também é usado para renomear arquivos.  Seu uso é semelhante ao comando de cópia (‘cp’).
 * rm –r Remove arquivos e diretórios
 * clear – Limpa todo o conteúdo 
+
+## Sprint 02 – Lógica de Programação
+
+#### Objetivo: Lógica de programação e conceitos base da linguagem PHP.
+
+<div align="center">
+
+### Conteúdo abordado:</div>
+
+* Introdução à lógica
+ 1. O que são algoritmos
+ 2. Sequência lógica
+ 3. Representação de um algoritmo (Descritivo, Fluxograma e Pseudocódigo)
+ 4. Fases de um algoritmo
+* Introdução ao ambiente de desenvolvimento
+* Comentários
+* Operadores aritméticos
+* Variáveis e constantes
+* Operadores
+ 1. Aritméticos
+ 2. Lógicos
+ 3. Atribuição
+* Tipos de dados
+ 1. int
+ 2. float
+ 3. string
+ 4. bool
+* Estruturas de seleção
+* Estruturas de repetição
+* Manipulação de vetores
+* Manipulação de matrizes
