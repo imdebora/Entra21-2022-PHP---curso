@@ -3,7 +3,14 @@
 # Entra21-2022-PHP---curso
 </div>
 
-### Repositório para sincronização de todos os testes, arquivos e documentos do meu treinamento no entra21 2022
+### *Repositório para sincronização de todos os testes, arquivos e documentos do meu treinamento no entra21 2022*
+
+### **Ferramentas e aplicativos aprendidos até o momento:**
+
+* VSCODE
+* Git e Github
+* Trello
+* Markdown
 
 ## Sprint 01 – Ambientação e Metodologias Ágeis
 
@@ -82,8 +89,7 @@ PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
  1. Também é usado para renomear arquivos.  Seu uso é semelhante ao comando de cópia (‘cp’).
 * rm –r Remove arquivos e diretórios
 * clear – Limpa todo o conteúdo 
-_______________________________________________________________________________
-
+________________________________________________________________________
 ## Sprint 02 – Lógica de Programação
 
 #### Objetivo: Lógica de programação e conceitos base da linguagem PHP.
