@@ -82,6 +82,7 @@ PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
  1. Também é usado para renomear arquivos.  Seu uso é semelhante ao comando de cópia (‘cp’).
 * rm –r Remove arquivos e diretórios
 * clear – Limpa todo o conteúdo 
+_______________________________________________________________________________
 
 ## Sprint 02 – Lógica de Programação
 
@@ -112,6 +113,8 @@ CONTEÚDO ABORDADO:</div>**
 * Estruturas de repetição
 * Manipulação de vetores
 * Manipulação de matrizes
+
+## O que são algoritmos?
 
 ### Exercicio:
 
