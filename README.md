@@ -67,10 +67,6 @@ PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
 - BackLog Sprint
 - Incremento
 
-<div>
-![dailyscrum](dailyscrum.jpg)
-</div>
-
 <div align="center">
 
 ### Comandos git
