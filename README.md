@@ -68,6 +68,10 @@ PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
 - Incremento
 
 <div align="center">
+<img src="https://user-images.githubusercontent.com/104090687/165965473-da78f433-c2e6-485d-8b28-1929ca28835a.jpg" width="300px"/>
+</div>
+
+<div align="center">
 
 ### Comandos git
 </div>
@@ -158,3 +162,9 @@ CONTEÚDO ABORDADO:</div>**
 * Asp
 * Dataflex
 * Bash
+
+**Respostas do Daily Scrum:**
+
+- Ontem atualizei meu README com anotações da aula.
+- Hoje irei atualizar o meu README com as informações dadas na aula de hoje e atualizar meu Kanbam no Trello.
+- Não encontrei dificuldades em realizar as atividades pedidas pelo professor.
