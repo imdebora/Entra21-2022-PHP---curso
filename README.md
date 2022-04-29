@@ -68,7 +68,7 @@ PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
 - Incremento
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/104090687/165965473-da78f433-c2e6-485d-8b28-1929ca28835a.jpg" width="300px"/>
+<img src="https://user-images.githubusercontent.com/104090687/165965473-da78f433-c2e6-485d-8b28-1929ca28835a.jpg" width="400px"/>
 </div>
 
 <div align="center">
