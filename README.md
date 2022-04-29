@@ -58,8 +58,8 @@ PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
 - Sprint
 - Sprint Planning
 - Daily Scrum
-- sprint review
-- sprint
+- Sprint review
+- Sprint
 
 ### Artefatos:
 
@@ -86,7 +86,7 @@ PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
 * Ls - mostra o que tem na pasta(listar)
 * Cd - muda de pasta que está (change directory)
  1. Tem que dizer pra onde vai
- 2.Se estiver no windows cdm o dir faz a mesma coisa
+ 2. Se estiver no windows cdm o dir faz a mesma coisa
 * mkdir – Cria uma nova pasta no diretório corrente:
 * cp – Copia arquivos e diretórios:
 * mv – Move arquivos e diretórios. 
@@ -115,10 +115,10 @@ CONTEÚDO ABORDADO:</div>**
  2. Lógicos
  3. Atribuição
 * Tipos de dados
- 1. int
- 2. float
- 3. string
- 4. bool
+ 1. Int
+ 2. Float
+ 3. String
+ 4. Bool
 * Estruturas de seleção
 * Estruturas de repetição
 * Manipulação de vetores
@@ -129,9 +129,9 @@ CONTEÚDO ABORDADO:</div>**
 ## *Exercicio:*
 
 * Escolha uma das opções abaixo e descreva de forma lógica em 10 passos:
- 1. sacar dinheiro 💸
- 2. tomar banho 🚿
- 3. comer pizza 🍕
+ 1. Sacar dinheiro 💸
+ 2. Tomar banho 🚿
+ 3. Comer pizza 🍕
 
 **<div align="center">
 🍕 COMER PIZZA 🍕</div>**
@@ -168,3 +168,15 @@ CONTEÚDO ABORDADO:</div>**
 - Ontem atualizei meu README com anotações da aula.
 - Hoje irei atualizar o meu README com as informações dadas na aula de hoje e atualizar meu Kanbam no Trello.
 - Não encontrei dificuldades em realizar as atividades pedidas pelo professor.
+
+**29/04/2022**
+
+Estudamos sequência lógica, representação de um algoritmo (descritivo, fluxograma e pseudocódigo) e fases de um algoritmo.
+
+### **FASES DE UM ALGORITMO**
+
+- Problema
+- Análise do problema
+- Solicitar em forma de algoritmo
+- Testar
+- Codificação
