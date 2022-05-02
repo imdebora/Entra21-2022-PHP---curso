@@ -173,6 +173,16 @@ CONTEÚDO ABORDADO:</div>**
 
 Estudamos sequência lógica, representação de um algoritmo (descritivo, fluxograma e pseudocódigo) e fases de um algoritmo.
 
+## **Conceito de um algoritmo:**
+
+Inicio 
+
+- Dados ➡️ Database
+- Processamento ➡️ Backend
+- Impressão ➡️ Frontend
+
+Fim
+
 ### **FASES DE UM ALGORITMO**
 
 - Problema
@@ -180,3 +190,30 @@ Estudamos sequência lógica, representação de um algoritmo (descritivo, fluxo
 - Solicitar em forma de algoritmo
 - Testar
 - Codificação
+
+**02/05/2022**
+
+Proxima aula trazer pensamento pronto de uma aplicação desejada
+
+Exemplos de IDE:
+
+- Vscode
+- Php storm
+- Eclipse
+- Netbeans
+- Intelij
+- Sublime text
+- CodeSandbox
+- Xampp
+
+Arqivo txt/.php
+
+Interpretada
+
+* Php 
+* Python 
+* Perl   
+
+Compilados
+
+* .C
