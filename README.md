@@ -437,3 +437,4 @@ programa
 		escreva("A raiz quadrada do número é: ", raiz_quadrada, "\n")
 	}
 }
+
