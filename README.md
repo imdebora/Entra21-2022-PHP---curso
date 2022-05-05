@@ -3,7 +3,24 @@
 # Entra21-2022-PHP---curso
 </div>
 
-### *Repositório para sincronização de todos os testes, arquivos e documentos do meu treinamento no entra21 2022*
+<div align="center">
+
+### *Repositório para sincronização de todos os testes, arquivos e documentos do meu treinamento no entra21 2022*</div>
+
+### **Sobre**
+
+ Notas sobre o [curso de PHP](https://www.entra21.com.br/)
+
+### **Objetivo**: 
+ Repositorio arquivos exemplo utilizados em aula. 
+ 
+### **Status:**
+- Em desenvolvimento durante todo o periodo do curso. 
+- Será mantido após o termino do curso. 
+
+### **Autora**
+
+#### Débora de Brito de Lima
 
 ### **Ferramentas e aplicativos aprendidos até o momento:**
 
@@ -93,7 +110,66 @@ PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
  1. Também é usado para renomear arquivos.  Seu uso é semelhante ao comando de cópia (‘cp’).
 * rm –r Remove arquivos e diretórios
 * clear – Limpa todo o conteúdo 
-________________________________________________________________________
+
+### **Criar um repositorio novo a partir do computador local:**
+
+```
+#Criar um diretorio no computador
+mkdir MEUREPOSITORIO 
+cd MEUREPOSITORIO
+
+- git init .
+- git add <novos arquivos> ou . (para todos os 
+arquivos)
+- git add README.md (exemplo:)
+- git add .gitignore 
+- git add . 
+- git commit -m "Meu Primeiro GIT Start"
+```
+
+```
+- Configurar um novo repositório no GITHUB.COM. 
+- No prompt de comando, VAMOS ENVIAR seu novo projeto LOCAL para o REPOSITORIO CRIADO NA NUVAM digite os seguintes comandos para realizar esse processo:
+
+```
+ git remote add origin https://github.com/[USERNAME]/[repositorio].git
+  git pull origin main 
+  git push -u origin main
+
+  echo "# e2122-teste-total" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+
+  git remote add origin git@github.com:[USERNAME]/[respositorio].git
+  ... ou ...
+  git remote add origin https://github.com:[USERNAME]/[respositorio].git
+
+  git push -u origin main
+
+
+### **Fluxo Continuo de atualizações do seu repositorio:**
+
+```
+- git pull (download das ultimas atualizações suas ou de colegas)
+- vscode (editar seus programas/codigos/documentos) + (CTRL+S)
+- git add . 
+- git commit -m "breve descrição das alterações"
+- git push (upload)
+```
+
+### **O que fazer em caso de conflito no momento de GIT PUSH:**
+
+``` 
+# Siga o fluxo, pule o passo git push e siga para git pull
+# Neste momento o vscode apresentará os codigos que talvez estejam em conflito com o seu, se houver. então:
+- git add .
+- git commit -m "descrição da resolução de conflitos"
+- git push (upload)
+- git pull (download novamente: só pra verificar se tudo está ok)
+```
+
 ## Sprint 02 – Lógica de Programação
 
 #### Objetivo: Lógica de programação e conceitos base da linguagem PHP.
@@ -217,3 +293,105 @@ Interpretada
 Compilados
 
 * .C
+
+## *Portugol*
+
+Disponivel no site:   https://portugol-webstudio.cubos.io/ide  <versão antiga>
+                      https://dgadelha.github.io/tcc-webstudio/ <versão nova>
+
+** Entradas e Saidas: **
+- Olá Mundo
+- Numero Digitado
+- Seu Nome
+
+programa 
+{ 
+	funcao inicio () 
+	{ 
+		inteiro numero 
+		
+		escreva("Digite um número inteiro: ")
+		leia(numero)
+		
+		escreva("O número digitado foi: ", numero, "\n")
+	} 
+}
+
+programa
+{
+	funcao inicio ()
+	{
+		cadeia nome
+
+		escreva("Digite seu nome: ")
+		leia(nome)
+        escreva("Voce digitou:", nome, "\n")
+	}
+}
+
+**Operações Aritiméticas:**
+- Operações Simples
+- Prioridades em operações
+- Divisões Inteiras
+- Potenciação e Raiz
+
+programa
+{
+	funcao inicio()
+	{
+		real a, b, soma, sub, mult, div, somageral
+		
+		escreva("Digite o primeiro número: ")
+		leia(a)
+
+		escreva("Digite o segundo número: ")
+		leia(b)
+
+		soma = a + b // Soma os dois valores
+		sub  = a - b // Subtrai os dois valores
+		mult = a * b // Multiplica os dois valores
+		div  = a / b // Divide os dois valores
+        somageral = soma + sub + mult + div
+
+		escreva("\nA soma dos números é igual a: ", soma) 		// Exibe o resultado da soma
+		escreva("\nA subtração dos números é igual a: ", sub) 		// Exibe o resultado da subtração
+		escreva("\nA multiplicação dos números é igual a: ", mult) 	// Exibe o resultado da multiplicação
+		escreva("\nA divisão dos números é igual a: ", div, "\n") 	// Exibe o resultado da divisão
+        escreva("\nA soma geral de todos os resultados acima é igual a: ", somageral, "\n") //Besteira minha 
+
+
+	}
+}
+
+programa
+{
+	funcao inicio()
+	{
+		real resultado
+
+		// Neste exemplo, a operação de multiplicação (*) será executada primeiro
+		resultado = 5.0 + 4.0 * 2.0
+		escreva("Operação: 5 + 4 * 2 = ", resultado) 
+
+
+		// Neste exemplo, a operação de soma (+) será executada primeiro
+		resultado = (5.0 + 4.0) * 2.0
+		escreva("\nOperação: (5 + 4) * 2 = ", resultado)		
+
+		/*
+		 * Neste exemplo, a operação de divisão (/) será executada primeiro, 
+		 * seguida pela operação de multiplicação (*). Por último, será 
+		 * executada a operação de soma (+)
+		 */
+		resultado = 1.0 + 2.0 / 3.0 * 4.0 
+		escreva("\nOperação: 1 + 2 / 3 * 4 = ", resultado)
+
+		/*
+		 * Neste exemplo, a operação de soma (+) será executada primeiro, 
+		 * seguida pela operação de multiplicação (*). Por último, será 
+		 * executada a operação de divisão (/).
+		 */
+		resultado = (1.0 + 2.0) / (3.0 * 4.0)
+		escreva("\nOperação: (1 + 2) / (3 * 4) = ", resultado, "\n")
+	}
+}
