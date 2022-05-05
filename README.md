@@ -395,3 +395,7 @@ programa
 		escreva("\nOperação: (1 + 2) / (3 * 4) = ", resultado, "\n")
 	}
 }
+
+
+Considerações by prof: (apague depois)
+EXCELENTE! ATUALIZANDO O TEMPO TODO!!
