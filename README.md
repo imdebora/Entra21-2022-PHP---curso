@@ -22,6 +22,27 @@
 
 #### Débora de Brito de Lima
 
+### **Canais Oficiais de comunicação audiovisual**
+
+- [Telegram](https://t.me/+gzczSHIGEpcxYmEx)
+- [Meet (somente aulas técnicas)](https://meet.google.com/nbc-gvnp-pfh)
+
+### **Canais de comunicação off-line**
+
+*Esporádico*
+- [Dados do Aluno](https://forms.gle/wiwPSuNHCkjwL4cE8)
+- [Banco de Ideias](https://forms.gle/P8J5DdAEqb32x6yFA)
+  
+*Frequente*
+- [Perguntas ao professor](https://forms.gle/4yKmTp7LqrgP2VvV6)
+  
+**Diario Obrigatório:**
+- [Resumo da Aula](https://forms.gle/DE1Bi4hBxJEnSd188)
+- [Avaliação da Aula Junto a Proway](https://externo.proway.com.br) Entrar em Central do aluno com usuario: **seu endereço de email** e senha: **ddmmaaa do seu nascimento** somente números.
+  
+**Arquivo Historico Completo:**
+- [Playlist do Youtube](https://youtube.com/playlist?list=PL2WEynOui8TQxNqHE7IXrlirkVM7SDp9w)
+
 ### **Ferramentas e aplicativos aprendidos até o momento:**
 
 * VSCODE
@@ -393,5 +414,26 @@ programa
 		 */
 		resultado = (1.0 + 2.0) / (3.0 * 4.0)
 		escreva("\nOperação: (1 + 2) / (3 * 4) = ", resultado, "\n")
+	}
+}
+
+programa
+{
+	inclua biblioteca Matematica --> mat  // Inclui a biblioteca Matemática
+	
+	funcao inicio() 
+	{
+		real valor, potencia, raiz_quadrada
+		
+		escreva("Digite um valor: ") 
+		leia(valor)
+
+		potencia = mat.potencia(valor, 2.0)  	// Calcula o valor elevado ao QUADRADO
+		raiz_quadrada = mat.raiz (valor, 2.0) 	// Calcula a raiz quadrada do valor
+
+		// Exibe os resultados
+		
+		escreva("\nO número ao QUADRADO é: ", potencia, "\n")
+		escreva("A raiz quadrada do número é: ", raiz_quadrada, "\n")
 	}
 }
