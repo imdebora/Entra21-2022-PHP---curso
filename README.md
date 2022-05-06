@@ -438,3 +438,48 @@ programa
 	}
 }
 
+### **Loja de Maquiagem**
+
+programa
+{   
+    funcao inicio ()
+    {
+        const real PRECO_BASE = 25,99
+        const real PRECO_CORRETIVO = 12,35
+        const real PRECO_BATOM = 9,99
+
+        cadeia nome
+        inteiro quantidade_bases, quantidade_corretivos, quantidade_batons
+        real total_bases, total_corretivos, total_batons, total_pagar
+
+        escreva("Digite seu nome: ")
+        leia(nome)
+
+        escreva("\nDigite a quantidade de bases que você deseja comprar: ")
+        leia(quantidade_bases)
+
+        escreva("\nDigite a quantidade de corretivos você deseja comprar: ")
+        leia(quantidade_corretivos)
+
+        escreva("\nDigite a quantidade de batons você deseja comprar: ")
+        leia(quantidade_batons)
+
+        total_bases = PRECO_BASE * quantidade_bases
+        total_corretivos = PRECO_CORRETIVO * quantidade_corretivos
+        total_batons = PRECO_BATOM * quantidade_batons
+
+        total_pagar = total_bases + total_corretivos + total_batons
+
+        limpa()
+
+        escreva("Olá, espero que tenho sido(a) bem atendido(a) em nossa loja!\n")
+        
+        escreva("Cliente: ", nome, "\n")
+        escreva("==========================\n")
+        escreva("Bases: ", quantidade_bases, "\n")
+        escreva("Corretivos: ", quantidade_corretivos, "\n")
+        escreva("Batons: ", quantidade_batons, "\n")
+        escreva("==========================\n")
+        escreva("Total a pagar:  R$ ", total_pagar, "\n")
+    }
+}
