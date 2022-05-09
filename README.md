@@ -488,11 +488,53 @@ programa
         escreva("Olá, espero que tenho sido(a) bem atendido(a) em nossa loja!\n")
         
         escreva("Cliente: ", nome, "\n")
-        escreva("==========================\n")
+        escreva("===============================================================\n")
         escreva("Bases: ", quantidade_bases, "\n")
         escreva("Corretivos: ", quantidade_corretivos, "\n")
         escreva("Batons: ", quantidade_batons, "\n")
-        escreva("==========================\n")
+        escreva("===============================================================\n")
         escreva("Total a pagar:  R$ ", total_pagar, "\n")
     }
+}
+
+### **IF/ELSE**
+
+# Exercicio 001: Versão 001.
+
+    Elbore um algoritmo que calcule a área de um retangulo qualquer, 
+    recebendo, para isso o valor da base e da altura em centimetros.
+    Imprima o tamanho em centimetros. 
+    fazer commit.
+
+# Exercicio 002: Versão 002.
+
+    Adicionar condicional composta.
+    Adicione o seguinte teste em eu algoritmo: 
+    - Modifique a unidade para Metros.
+    - O Retangulo agora representará uma area de terra.
+    - Calcule a medida de frente e lateral da área e informe o usuario se a área 
+       informada se trata de:
+        - um Terreno até 1000m2, 
+        - Um sítio, até 5000m2
+        - Em Hectare de terra até 10000m2
+        - Uma fazenda acima de 10000m2
+
+programa
+{
+	funcao inicio()
+	{
+		real a, b, area
+
+		escreva("Digite o valor da base em centimentros: ")
+		leia(a)
+
+		escreva("Digite o valor da altura em centimentros: ")
+		leia(b)
+
+		area = a * b
+
+        limpa()
+
+		escreva("A área é igual à: ", area, "cm2" "\n")
+	}
 }
