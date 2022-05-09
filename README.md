@@ -13,7 +13,12 @@ MENU:
  * [Objetivo](#objetivo)
  * [Status](#status)
  * [Autora](#autora)
- * 
+ * [Canais Oficiais de comunicação audiovisual](#canais-oficiais-de-comunicação-audiovisual)
+ * [Canais de comunicação off-line](#canais-de-comunicação-off-line)
+ * [Ferramentas e aplicativos aprendidos até o momento:](#ferramentas-e-aplicativos-aprendidos-até-o-momento)
+ * [Sprint 01 – Ambientação e Metodologias Ágeis](#sprint-01--ambientação-e-metodologias-ágeis)
+ * [Sprint 02 – Lógica de Programação](#sprint-02--lógica-de-programação)
+  
 ### **Sobre**
 
  Notas sobre o [curso de PHP](https://www.entra21.com.br/)
@@ -56,6 +61,7 @@ MENU:
 * Git e Github
 * Trello
 * Markdown
+* Portugol
 
 ## Sprint 01 – Ambientação e Metodologias Ágeis
 
