@@ -633,7 +633,7 @@ programa
         escreva("Digite o salário bruto do funcionário: ")
         leia(salario)
 
-        desconto = 0
+        desconto = 0,0
 
         {se(salario <= 1000)
         desconto =  salario * 0,05
@@ -644,11 +644,27 @@ programa
         {se(salario <= 4000)
         desconto = salario * 0,09
         }
-        {se(salario > 10000)
+        {se(salario < 9000)
+        desconto = (salario * 0.095)
+        }
+        {senao(salario > 10000)
         desconto = salario * 0,10
+
         valorReal = salario - desconto
-
-        escreva("O salario com o desconto INSS é igual: ", valorReal, )
-
+        escreva("O salario com o desconto INSS é igual: ", valorReal,)
     }
 }
+
+#Exercicio: Laço de Repetição
+
+#Versão 001: 
+
+- Crie um algoritmo que receba 2 numeros, 
+- multiplique o resultados de AxB.
+- Imprima o resultado na tela 
+
+# Versão 002:
+- adicione um laço de repetição para todo o algoritmo que seja executado 
+até que a multiplicação resulte em 1000
+- ao sair informe o usuario que o resultado é igual a 1000 e aborte o laço. 
+- utilize o recurso de funcões() para este Exercicio
