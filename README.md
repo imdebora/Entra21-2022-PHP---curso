@@ -580,3 +580,75 @@ programa
 	}
 
 }
+
+Exercicio 002:
+
+Elabore um algoritmo que receba dois numeros pelo teclado e compare se os numeros são:
+- iguais
+- A < B 
+- B < A 
+E informe o usuário.
+
+programa
+{   
+    funcao inicio()
+    {
+        real a, b 
+
+        escreva("Digite o número A: ")
+        leia(a)
+
+        escreva("Digite o número B: ")
+        leia(b)
+
+        {
+        se(a = b)
+        escreva("Os números digitados são iguais")
+        }
+        {
+        se(a < b)
+        escreva("O número A é maior que o B")
+        }
+        se(b < a)
+        escreva("O número B é maior que o A")
+    }
+}
+
+#Exercício 003
+
+Elabore um algoritmo que receba o salario bruto de um funcionario e 
+calcule o desconto de INSS de acordo com a sua faixa salarial:
+
+< 1000 5% desconto
+< 2000 7% desconto 
+< 4000 9% desconto
+> 10000 10% desconto.
+
+programa
+{   inclua biblioteca Matematica --> mat
+    funcao inicio()
+    {   
+        real salario, desconto, valorReal, mult
+
+        escreva("Digite o salário bruto do funcionário: ")
+        leia(salario)
+
+        desconto = 0
+
+        {se(salario <= 1000)
+        desconto =  salario * 0,05
+        }
+        {se(salario <= 2000)
+        desconto = salario * 0,07
+        }
+        {se(salario <= 4000)
+        desconto = salario * 0,09
+        }
+        {se(salario > 10000)
+        desconto = salario * 0,10
+        valorReal = salario - desconto
+
+        escreva("O salario com o desconto INSS é igual: ", valorReal, )
+
+    }
+}
