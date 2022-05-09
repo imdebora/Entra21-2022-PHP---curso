@@ -633,24 +633,24 @@ programa
         escreva("Digite o salário bruto do funcionário: ")
         leia(salario)
 
+        valorReal = salario - desconto
         desconto = 0,0
 
-        {se(salario <= 1000)
-        desconto =  salario * 0,05
+        se(salario <= 1000)
+        {desconto = (salario * 0,05) - salario
         }
-        {se(salario <= 2000)
-        desconto = salario * 0,07
+        se(salario <= 2000)
+        {desconto = salario * 0,07
         }
         {se(salario <= 4000)
         desconto = salario * 0,09
         }
-        {se(salario < 9000)
-        desconto = (salario * 0.095)
+        se(salario < 9000)
+        {desconto = (salario * 0.095)
         }
-        {senao(salario > 10000)
-        desconto = salario * 0,10
+        senao(salario > 10000)
+        {desconto = salario * 0,10
 
-        valorReal = salario - desconto
         escreva("O salario com o desconto INSS é igual: ", valorReal,)
     }
 }
