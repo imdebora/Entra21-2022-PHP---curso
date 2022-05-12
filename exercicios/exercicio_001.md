@@ -184,6 +184,23 @@ programa
 - Crie um algoritmo que receba 2 numeros, 
 - multiplique o resultados de AxB.
 - Imprima o resultado na tela 
+  programa
+{
+    funcao inicio()
+    {   
+        real a, b, mult
+
+        escreva("Digite o primeiro número: ")
+        leia(a)
+        escreva("\nAgora digite o segundo número: ")
+        leia(b)
+
+        mult = a * b
+
+        limpa()
+        escreva("A mulltiplicação desses dois números é igual: ", mult, "\n")
+    }
+}
 
 ## **Versão 002:**
 
@@ -191,3 +208,39 @@ programa
 até que a multiplicação resulte em 1000
 - ao sair informe o usuario que o resultado é igual a 1000 e aborte o laço. 
 - utilize o recurso de funcões() para este Exercicio
+
+programa
+{
+    funcao inicio()
+    inteiro n1, n2, resultado, = 0
+
+    enquanto(resultado != 1000){
+        escreva("Digite o primeiro número: ")
+        leia(n1)
+        escreva("Digite o segundo número: ")
+        leia(n2)
+
+        resultado = n1 * n2
+        escreva(resultado, "\n")
+    }
+    escreva("============================= ")
+     escreva(" O seu número é igual a 1000! ")
+     escreva(" =============================")
+  
+}
+
+
+programa
+{
+    funcao inicio()
+    {
+        real ladoA, ladoB, resultado
+
+        ladoA = 60
+        ladoB = 80
+
+        resultado = ladoA * ladoB
+
+        escreva("Resultado: ",resultado, "\n")
+    }
+}
