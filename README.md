@@ -17,7 +17,25 @@ MENU:
  * [Canais de comunicação off-line](#canais-de-comunicação-off-line)
  * [Ferramentas e aplicativos aprendidos até o momento:](#ferramentas-e-aplicativos-aprendidos-até-o-momento)
  * [Sprint 01 – Ambientação e Metodologias Ágeis](#sprint-01--ambientação-e-metodologias-ágeis)
+    1. [Objetivo](#objetivo-recepcionar-os-alunos-e-introduzir-conceitos-de-metodologias-ágeis)
+    2. [Princípios](#princípios)
+    3. [Simplicidade](#simplicidade)
+    4. [Ciclo](#ciclo)
+    5. [Valores do Scrum](#valores-do-scrum)
+    6. [Eventos](#eventos)
+    7. [Artefatos](#artefatos)
+    8. [Comandos GIT](#comandos-git)
+    9. [Criar um repositório novo a partir do computador local](#criar-um-repositorio-novo-a-partir-do-computador-local)
+    10. [Fluxo continuo de atualizações do seu repositório](#fluxo-continuo-de-atualizações-do-seu-repositorio)
+    11. [O que fazer em caso de conflito no momento de GIT PUSH](#o-que-fazer-em-caso-de-conflito-no-momento-de-git-push)
  * [Sprint 02 – Lógica de Programação](#sprint-02--lógica-de-programação)
+    1. [Objetivo](#objetivo-lógica-de-programação-e-conceitos-base-da-linguagem-php)
+    2. [O que são algoritmos](#o-que-são-algoritmos)
+    3. [Linguagens de programação utilizadas no passado](#linguagens-de-progamação-utilizadas-no-passado)
+    4. [Conceito de um algoritmo](#conceito-de-um-algoritmo)
+    5. [Fases de um algoritmo](#fases-de-um-algoritmo)
+    6. [Operações aritiméticas](#operações-aritiméticas)
+    7. [Portugol](#portugol)
   
 ### **Sobre**
 
@@ -71,8 +89,8 @@ MENU:
 CONTEÚDO ABORDADO:</div>**
 
 * Frameworks Agéis:
- 1. Scrum
- 2. Kanban
+   1. Scrum
+   2. Kanban
 * Git e Github
 
 ### Princípios:
@@ -136,12 +154,12 @@ PLANEJAR ➡️ DESENVOLVER ➡️ ENTRAR️ ➡️ O MUNICAR</div>
 * Pwd - mostra em qual local diretório/pasta você está
 * Ls - mostra o que tem na pasta(listar)
 * Cd - muda de pasta que está (change directory)
- 1. Tem que dizer pra onde vai
- 2. Se estiver no windows cdm o dir faz a mesma coisa
+  1. Tem que dizer pra onde vai
+  2. Se estiver no windows cdm o dir faz a mesma coisa
 * mkdir – Cria uma nova pasta no diretório corrente:
 * cp – Copia arquivos e diretórios:
 * mv – Move arquivos e diretórios. 
- 1. Também é usado para renomear arquivos.  Seu uso é semelhante ao comando de cópia (‘cp’).
+  1. Também é usado para renomear arquivos.  Seu uso é semelhante ao comando de cópia (‘cp’).
 * rm –r Remove arquivos e diretórios
 * clear – Limpa todo o conteúdo 
 
@@ -212,23 +230,23 @@ arquivos)
 CONTEÚDO ABORDADO:</div>**
 
 * Introdução à lógica
- 1. O que são algoritmos
- 2. Sequência lógica
- 3. Representação de um algoritmo (Descritivo, Fluxograma e Pseudocódigo)
- 4. Fases de um algoritmo
+   1. O que são algoritmos
+   2. Sequência lógica
+   3. Representação de um algoritmo (Descritivo, Fluxograma e Pseudocódigo)
+   4. Fases de um algoritmo
 * Introdução ao ambiente de desenvolvimento
 * Comentários
 * Operadores aritméticos
 * Variáveis e constantes
 * Operadores
- 1. Aritméticos
- 2. Lógicos
- 3. Atribuição
+   1. Aritméticos
+   2. Lógicos
+   3. Atribuição
 * Tipos de dados
- 1. Int
- 2. Float
- 3. String
- 4. Bool
+   1. Int
+   2. Float
+   3. String
+   4. Bool
 * Estruturas de seleção
 * Estruturas de repetição
 * Manipulação de vetores
@@ -239,9 +257,9 @@ CONTEÚDO ABORDADO:</div>**
 ## *Exercicio:*
 
 * Escolha uma das opções abaixo e descreva de forma lógica em 10 passos:
- 1. Sacar dinheiro 💸
- 2. Tomar banho 🚿
- 3. Comer pizza 🍕
+   1. Sacar dinheiro 💸
+   2. Tomar banho 🚿
+   3. Comer pizza 🍕
 
 **<div align="center">
 🍕 COMER PIZZA 🍕</div>**
@@ -363,7 +381,7 @@ programa
 	}
 }
 
-**Operações Aritiméticas:**
+### **Operações Aritiméticas:**
 - Operações Simples
 - Prioridades em operações
 - Divisões Inteiras
