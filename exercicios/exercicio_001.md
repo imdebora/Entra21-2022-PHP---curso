@@ -215,18 +215,56 @@ programa
     inteiro n1, n2, resultado, = 0
 
     enquanto(resultado != 1000){
-        escreva("Digite o primeiro número: ")
+        escreva("\nDigite o primeiro número: ")
         leia(n1)
         escreva("Digite o segundo número: ")
         leia(n2)
-
+    
         resultado = n1 * n2
         escreva(resultado, "\n")
+
+        se (resultado < 1000)
+        {
+            opcao()
+        }
+        se (resultado >= 1000)
+
     }
-    escreva("============================= ")
-     escreva(" O seu número é igual a 1000! ")
-     escreva(" =============================")
-  
+    {   
+        funcao final
+        escreva("================================================")
+        escreva(" O resultado da sua multiplicação chegou a 1000! ")
+        escreva("================================================\n") 
+        
+        opcao2()
+    }
+    {   
+        funcao opcao()
+        
+        escreva("==========================================\n")
+        escreva("O resultado ainda não alcançou o esperado!\n")
+        escreva("==========================================\n")
+    }
+    {   
+        funcao opcao2()
+        cadeia resp
+        escreva("\nDeseja repetir o processo? s/n: ")
+        leia(resp)
+        se(resp=="s")
+        {
+            inicio()
+        }
+        senao se(resp=="n")
+        {
+            escreva("Muito obrigado por utilizar o programa!")
+        }
+        senao
+        {
+            escreva("Digite apenas sim ou não!")
+            opcao2()
+        }
+
+    }
 }
 
 
