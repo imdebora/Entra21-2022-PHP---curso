@@ -5,7 +5,7 @@
     Imprima o tamanho em centimetros. 
     fazer commit.
 
-	programa
+programa
 {
 	funcao inicio()
 	{
@@ -24,6 +24,7 @@
 		escreva("A área é igual à: ", area, "cm2" "\n")
 	}
 }
+
 # *Exercicio 002: Versão 002.*
 
     Adicionar condicional composta.
@@ -36,7 +37,6 @@
         - Um sítio, até 5000m2
         - Em Hectare de terra até 10000m2
         - Uma fazenda acima de 10000m2
-
 
 programa
 {   
@@ -146,21 +146,21 @@ programa
                 vr = sal - des
                 escreva("O salário com reajuste fica num total de R$ ", vr,)
         }
-        senao se (sal < 2000)
+        senao se se (sal < 2000)
         {   
             des = sal * 0.07
             escreva("O desconto do INSS é de 7%, num total de R$ ", des, "\n")
                 vr = sal - des
                 escreva("O salário com reajuste fica num total de R$ ", vr,)
         }
-        senao se (sal < 4000)
+        senao se se (sal < 4000)
         {   
             des = sal * 0.09
             escreva("O desconto do INSS é de 9%, num total de R$ ", des, "\n")
                 vr = sal - des
                 escreva("O salário com reajuste fica num total de R$ ", vr,)
         }
-        senao se (sal > 4000 ou < 10000)
+        senao se se (sal > 4000 ou < 10000)
         {   
             des = sal * 0.095
             escreva("O desconto do INSS é de 9,5%, num total de R$ ", des, "\n")
@@ -184,7 +184,8 @@ programa
 - Crie um algoritmo que receba 2 numeros, 
 - multiplique o resultados de AxB.
 - Imprima o resultado na tela 
-  programa
+
+programa
 {
     funcao inicio()
     {   
@@ -254,11 +255,11 @@ programa
         {
             inicio()
         }
-        senao se(resp=="n")
+        senao se se(resp=="n")
         {
             escreva("Muito obrigado por utilizar o programa!")
         }
-        senao
+        senao se
         {
             escreva("Digite apenas sim ou não!")
             opcao2()
@@ -267,6 +268,88 @@ programa
     }
 }
 
+# Exercicio 002b: versão1
+
+    Receba os dados de duas variaveis. 
+    Imprimir o resultado da multiplicação das duas variaveis. 
+    Calcule a raiz quadrada do resultado e imprima. 
+
+programa
+{
+    funcao inicio(){   
+        inclua biblioteca Matematica --> mat
+        real va, vb, mult, raiz
+
+        escreva("Digite o primeiro número: \n")
+        leia(va)
+        escreva("Digite o segundo número: \n")
+        leia(vb)
+
+        mult = va * vb
+        escreva("O resultado da multiplicação desses dois números é: ", mult, "\n")
+        
+        raiz = mat.raiz(mult, 2)
+        escreva("A raiz quadrada desse resultado é: ",raiz, "\n")
+    }
+}
+
+# Exercicio 003
+
+    Solicite um valor do usuario (inteiro)
+
+    Verifique se o valor está entre
+
+    <0 = imprimir: NUMERO NEGATIVO
+    0 e 9 = imprimir a palavra:ZERO a NOVE
+    10 e 19 = imprimir a palavra:DEZ a DEZENOVE
+    20 e 29 = imprimir a palavra:VINTE A VINTE E NOVE
+    30 e 39 = imprimir a palavra:TRINTA A TRINTA E NOVE
+    =>40 = imprimir: QUARENTA OU MAIOR
+
+    NO final calcule 50% do valor digitado e imprima:
+        50 por cento do valor informado é: [RESULTADO]
+
+programa{
+    funcao inicio(){
+        inteiro n1, porcentagem
+
+        escreva("Digite um número: ")
+        leia(n1)
+
+        porcentagem = n1 * 0.50
+
+        se(n1 < 0){
+        escreva("NUMERO NEGATIVO")
+        escreva("\n50 por cento do valor informado é: ", porcentagem,)
+        }
+        senao se(n1 >= 0 e <= 9){
+        escreva("ZERO a NOVE")
+        escreva("\n50 por cento do valor informado é: ", porcentagem)
+        }
+        senao se(n1 >= 10 e <= 19){
+        escreva("DEZ a DEZENOVE")
+        escreva("\n50 por cento do valor informado é: ", porcentagem,)
+        }
+        senao se(n1 >= 20 e =< 29){
+        escreva("VINTE A VINTE E NOVE")
+        escreva("\n50 por cento do valor informado é: ", porcentagem,)
+        }
+        senao se(n1 >= 30 e =< 39){
+        escreva("TRINTA A TRINTA E NOVE")
+        escreva("\n50 por cento do valor informado é: ", porcentagem,)
+        }
+        senao(n1 => 40){
+        escreva(" QUARENTA OU MAIOR")
+        escreva("\n50 por cento do valor informado é: ", porcentagem,)
+    }
+}
+
+# Exercicio: 001b: Versão 001.
+
+    Calcule a area de um retangulo.
+    Sem solicitar dados ao usuário.
+    Para isto defina as variáveis: ladoA, LadoB, resultado. 
+    Imprima o resultado.
 
 programa
 {
@@ -274,11 +357,26 @@ programa
     {
         real ladoA, ladoB, resultado
 
-        ladoA = 60
-        ladoB = 80
+        ladoA = 10
+        ladoB = 19
 
         resultado = ladoA * ladoB
 
         escreva("Resultado: ",resultado, "\n")
+    }
+}
+
+# Exercico 004 - versão 001.
+
+
+    Crie uma funcao que imprima uma mensagem ao ser chamada.
+
+programa
+{
+    funcao inicio(){
+         teste()
+    }
+    funcao teste(){
+        escreva("Olá mundo!")
     }
 }
