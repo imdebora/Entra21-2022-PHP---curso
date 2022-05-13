@@ -1,4 +1,6 @@
-# *Exercicio 001: Versão 001.*
+# *Exercicio 001:* 
+
+## **Versão 001.**
 
     Elbore um algoritmo que calcule a área de um retangulo qualquer, 
     recebendo, para isso o valor da base e da altura em centimetros.
@@ -25,7 +27,7 @@ programa
 	}
 }
 
-# *Exercicio 002: Versão 002.*
+## **Versão 002.**
 
     Adicionar condicional composta.
     Adicione o seguinte teste em eu algoritmo: 
@@ -79,6 +81,48 @@ programa
 
 }
 
+# *Exercicio: 001B:*
+
+## **Versão 001.**
+
+    Calcule a area de um retangulo.
+    Sem solicitar dados ao usuário.
+    Para isto defina as variáveis: ladoA, LadoB, resultado. 
+    Imprima o resultado.
+
+programa
+{
+    funcao inicio()
+    {
+        real ladoA, ladoB, resultado
+
+        ladoA = 10
+        ladoB = 19
+
+        resultado = ladoA * ladoB
+
+        escreva("Resultado: ",resultado, "\n")
+    }
+}
+
+## **Versão 002.**
+
+    Calculo o perimetro de um retangulo.
+    Utilize as mesmas variáveis da versão 001.
+
+## **Versão 003.**
+
+    Solicite os dados do usuário para calcular os dados do retangulo.
+    Utilize as mesmas variaveis. 
+    Imprima o resultado da área do retangulo e o perimetro do retangulo.
+
+## **Versão 004.**
+
+    Adicione uma condicional simples. 
+    Utilize os resultados acima e faça o seguinte teste:
+    Informe em uma condicional simples quem é maior, perimetro ou a area. 
+    (vamos descondiderar as unidades m2 e mlinear), apenas pensar nas unidades.
+
 # *Exercicio 002:*
 
 Elabore um algoritmo que receba dois numeros pelo teclado e compare se os numeros são:
@@ -117,6 +161,34 @@ programa
         se(b < a)
         {
             escreva("O número B é maior que o A")
+    }
+}
+
+# *Exercicio 002B:*
+
+## **Versão 001**
+
+    Receba os dados de duas variaveis. 
+    Imprimir o resultado da multiplicação das duas variaveis. 
+    Calcule a raiz quadrada do resultado e imprima. 
+
+programa{
+    inclua biblioteca Matematica --> mat
+    funcao inicio(){
+        inteiro a, b, mult, raiz
+
+        escreva("Escolha um número: ")
+        leia(a)
+        escreva("Escolha outro número: ")
+        leia(b)
+
+        limpa()
+        
+        mult = a * b 
+        escreva("A multiplicação desses dois números é: ",mult, "\n")
+
+        raiz = mat.raiz(mult, 2)
+        escreva("A raiz quadrada desse resultado é: ",raiz)
     }
 }
 
@@ -177,7 +249,57 @@ programa
     }
 }
 
-# *Exercicio: Laço de Repetição*
+# *Exercicio 003B*
+
+    Solicite um valor do usuario (inteiro)
+
+    Verifique se o valor está entre
+
+    <0 = imprimir: NUMERO NEGATIVO
+    0 e 9 = imprimir a palavra:ZERO a NOVE
+    10 e 19 = imprimir a palavra:DEZ a DEZENOVE
+    20 e 29 = imprimir a palavra:VINTE A VINTE E NOVE
+    30 e 39 = imprimir a palavra:TRINTA A TRINTA E NOVE
+    =>40 = imprimir: QUARENTA OU MAIOR
+
+    NO final calcule 50% do valor digitado e imprima:
+        50 por cento do valor informado é: [RESULTADO]
+
+programa{
+    funcao inicio(){
+        inteiro n1, porcentagem
+
+        escreva("Digite um número: ")
+        leia(n1)
+
+        porcentagem = n1 * 0.50
+
+        se(n1 < 0){
+            escreva("NUMERO NEGATIVO \n")
+        }
+        senao se(n1 >= 0 e n1< 10){
+            escreva("ZERO a NOVE")
+        }
+        senao se(n1 > 9 e n1< 20){
+            escreva("DEZ a DEZENOVE")
+        }
+        senao se(n1 > 19 e n1< 30){
+            escreva("VINTE A VINTE E NOVE")
+        }
+        senao se(n1 > 29 e n1< 40){
+            escreva("TRINTA A TRINTA E NOVE")
+        }
+        senao{
+            escreva(" QUARENTA OU MAIOR")
+        }
+
+        escreva("50 por cento do valor informado é: ", porcentagem,)
+
+    }
+}
+
+# *Exercicio 004* 
+### Laço de Repetição
 
 ## **Versão 001:**
 
@@ -268,104 +390,7 @@ programa
     }
 }
 
-# Exercicio 002b: versão1
-
-    Receba os dados de duas variaveis. 
-    Imprimir o resultado da multiplicação das duas variaveis. 
-    Calcule a raiz quadrada do resultado e imprima. 
-
-programa
-{
-    funcao inicio(){   
-        inclua biblioteca Matematica --> mat
-        real va, vb, mult, raiz
-
-        escreva("Digite o primeiro número: \n")
-        leia(va)
-        escreva("Digite o segundo número: \n")
-        leia(vb)
-
-        mult = va * vb
-        escreva("O resultado da multiplicação desses dois números é: ", mult, "\n")
-        
-        raiz = mat.raiz(mult, 2)
-        escreva("A raiz quadrada desse resultado é: ",raiz, "\n")
-    }
-}
-
-# Exercicio 003
-
-    Solicite um valor do usuario (inteiro)
-
-    Verifique se o valor está entre
-
-    <0 = imprimir: NUMERO NEGATIVO
-    0 e 9 = imprimir a palavra:ZERO a NOVE
-    10 e 19 = imprimir a palavra:DEZ a DEZENOVE
-    20 e 29 = imprimir a palavra:VINTE A VINTE E NOVE
-    30 e 39 = imprimir a palavra:TRINTA A TRINTA E NOVE
-    =>40 = imprimir: QUARENTA OU MAIOR
-
-    NO final calcule 50% do valor digitado e imprima:
-        50 por cento do valor informado é: [RESULTADO]
-
-programa{
-    funcao inicio(){
-        inteiro n1, porcentagem
-
-        escreva("Digite um número: ")
-        leia(n1)
-
-        porcentagem = n1 * 0.50
-
-        se(n1 < 0){
-            escreva("NUMERO NEGATIVO \n")
-        }
-        senao se(n1 >= 0 e n1< 10){
-            escreva("ZERO a NOVE")
-        }
-        senao se(n1 > 9 e n1< 20){
-            escreva("DEZ a DEZENOVE")
-        }
-        senao se(n1 > 19 e n1< 30){
-            escreva("VINTE A VINTE E NOVE")
-        }
-        senao se(n1 > 29 e n1< 40){
-            escreva("TRINTA A TRINTA E NOVE")
-        }
-        senao{
-            escreva(" QUARENTA OU MAIOR")
-        }
-
-        escreva("50 por cento do valor informado é: ", porcentagem,)
-
-    }
-}
-
-# Exercicio: 001b: Versão 001.
-
-    Calcule a area de um retangulo.
-    Sem solicitar dados ao usuário.
-    Para isto defina as variáveis: ladoA, LadoB, resultado. 
-    Imprima o resultado.
-
-programa
-{
-    funcao inicio()
-    {
-        real ladoA, ladoB, resultado
-
-        ladoA = 10
-        ladoB = 19
-
-        resultado = ladoA * ladoB
-
-        escreva("Resultado: ",resultado, "\n")
-    }
-}
-
-# Exercico 004 - versão 001.
-
+# *Exercico 004B*
 
     Crie uma funcao que imprima uma mensagem ao ser chamada.
 
@@ -378,6 +403,27 @@ programa
         escreva("Olá mundo!")
     }
 }
+
+# *Exercico 004C*
+
+programa()
+{
+    echo "passou aqui 001"    
+    primeira_funcao()
+    {
+        echo "passou aqui 002"                
+    }
+    funcao_inicio()
+    {
+        echo "passou aqui 003"
+        primeira_funcao  
+    }
+    echo "passou aqui 004"
+    funcao_inicio
+}
+echo "passou aqui 005"
+programa
+echo "Fim"
 
 # Exercicio 005b
 
