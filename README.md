@@ -36,7 +36,7 @@
     5. [Fases de um algoritmo](#fases-de-um-algoritmo)
     6. [Operações aritiméticas](#operações-aritiméticas)
     7. [Portugol](#portugol)
-* [Exercícios](#exercicio)
+* [Exercícios](#️exercicios)
   
 ### **Sobre**
 

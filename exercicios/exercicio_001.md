@@ -319,28 +319,26 @@ programa{
         porcentagem = n1 * 0.50
 
         se(n1 < 0){
-        escreva("NUMERO NEGATIVO")
-        escreva("\n50 por cento do valor informado é: ", porcentagem,)
+            escreva("NUMERO NEGATIVO \n")
         }
-        senao se(n1 >= 0 e <= 9){
-        escreva("ZERO a NOVE")
-        escreva("\n50 por cento do valor informado é: ", porcentagem)
+        senao se(n1 >= 0 e n1< 10){
+            escreva("ZERO a NOVE")
         }
-        senao se(n1 >= 10 e <= 19){
-        escreva("DEZ a DEZENOVE")
-        escreva("\n50 por cento do valor informado é: ", porcentagem,)
+        senao se(n1 > 9 e n1< 20){
+            escreva("DEZ a DEZENOVE")
         }
-        senao se(n1 >= 20 e =< 29){
-        escreva("VINTE A VINTE E NOVE")
-        escreva("\n50 por cento do valor informado é: ", porcentagem,)
+        senao se(n1 > 19 e n1< 30){
+            escreva("VINTE A VINTE E NOVE")
         }
-        senao se(n1 >= 30 e =< 39){
-        escreva("TRINTA A TRINTA E NOVE")
-        escreva("\n50 por cento do valor informado é: ", porcentagem,)
+        senao se(n1 > 29 e n1< 40){
+            escreva("TRINTA A TRINTA E NOVE")
         }
-        senao(n1 => 40){
-        escreva(" QUARENTA OU MAIOR")
-        escreva("\n50 por cento do valor informado é: ", porcentagem,)
+        senao{
+            escreva(" QUARENTA OU MAIOR")
+        }
+
+        escreva("50 por cento do valor informado é: ", porcentagem,)
+
     }
 }
 
@@ -379,4 +377,31 @@ programa
     funcao teste(){
         escreva("Olá mundo!")
     }
+}
+
+# Exercicio 005b
+
+    Solicite ao usuario informar um numero inteiro entre 1 e 3
+    utilize case para imprimir Maça, para 1, Pera para 2, e Melancia para 3. 
+
+programa
+{
+    funcao inicio(){
+        inteiro a
+
+        escreva("Digite um número entre 1 e 3: ")
+        leia(a)
+
+        escolha(a){
+            caso 1:
+            escreva("Maçã")
+        
+            caso 2:
+            escreva("Pera")
+        
+            caso 3:
+            escreva("Melância")
+        {
+    }
+    
 }
