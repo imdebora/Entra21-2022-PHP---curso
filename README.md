@@ -7,7 +7,7 @@
 
 ### *Repositório para sincronização de todos os testes, arquivos e documentos do meu treinamento no entra21 2022*</div>
 
-MENU:
+**MENU:**
 
  * [Sobre](#sobre)
  * [Objetivo](#objetivo)
@@ -36,6 +36,7 @@ MENU:
     5. [Fases de um algoritmo](#fases-de-um-algoritmo)
     6. [Operações aritiméticas](#operações-aritiméticas)
     7. [Portugol](#portugol)
+* [Exercícios](#exercicio)
   
 ### **Sobre**
 
