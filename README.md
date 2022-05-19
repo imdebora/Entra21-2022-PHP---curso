@@ -5,7 +5,10 @@
 
 <div align="center">
 
-### *Repositório para sincronização de todos os testes, arquivos e documentos do meu treinamento no entra21 2022*</div>
+### *Repositório para sincronização de todos os testes, arquivos e documentos do meu treinamento no entra21 2022*
+
+![Gif Entra21](./gifs/entra21.gif)</div>
+
 
 **MENU:**
 
@@ -36,7 +39,7 @@
     5. [Fases de um algoritmo](#fases-de-um-algoritmo)
     6. [Operações aritiméticas](#operações-aritiméticas)
     7. [Portugol](#portugol)
-* [Exercícios](#️exercicios)
+* [Exercícios](#exercicios)
   
 ### **Sobre**
 
@@ -518,5 +521,15 @@ programa
 
 ### **IF/ ELSE/ SE/ SENAO SE/ SENAO**
 
-## ▶️[Exercicios](exercicios/exercicio_001.md)
+# **EXERCICIOS:**
 
+## ▶️[Exercicio 001](exercicios/exercicio_001.md)
+## ▶️[Exercicio 001B](exercicios/exercicio_001B.md)
+## ▶️[Exercicio 002](exercicios/exercicio_002.md) 
+## ▶️[Exercicio 002B](exercicios/exercicio_002B.md)
+## ▶️[Exercicio 003](exercicios/exercicio_003.md)
+## ▶️[Exercicio 003B](exercicios/exercicio_003B.md)
+## ▶️[Exercicio 004](exercicios/exercicio_004.md)
+## ▶️[Exercicio 004B](exercicios/exercicio_004B.md)
+## ▶️[Exercicio 004C](exercicios/exercicio_004B.md)
+## ▶️[Exercicio 005](exercicios/exercicio_005.md)
