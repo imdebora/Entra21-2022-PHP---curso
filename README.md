@@ -531,5 +531,5 @@ programa
 ## ▶️[Exercicio 003B](exercicios/exercicio_003B.md)
 ## ▶️[Exercicio 004](exercicios/exercicio_004.md)
 ## ▶️[Exercicio 004B](exercicios/exercicio_004B.md)
-## ▶️[Exercicio 004C](exercicios/exercicio_004B.md)
+## ▶️[Exercicio 004C](exercicios/exercicio_004C.md)
 ## ▶️[Exercicio 005](exercicios/exercicio_005.md)
