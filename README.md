@@ -533,3 +533,5 @@ programa
 ## ▶️[Exercicio 004B](exercicios/exercicio_004B.md)
 ## ▶️[Exercicio 004C](exercicios/exercicio_004C.md)
 ## ▶️[Exercicio 005](exercicios/exercicio_005.md)
+
+## [MANUAL DO PHP](https://www.php.net/manual/pt_BR/index.php)
