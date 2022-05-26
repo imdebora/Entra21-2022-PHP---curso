@@ -9,16 +9,15 @@
     <title>Exercicio 7</title>
 </head>
 <body>
-<form method="post" >
-        Número: <input type="floatval" name="num">
-        <input type= "submit">
+    <form method="post">
+            Número: <input type="floatval" name="num">
+            <input type= "submit">
     </form>
     <?php
-    $num = $_POST['num'];
-    if (empty($num) == FALSE); {
+        $num = $_POST['num'];
+        if (empty($num) == FALSE);{
         echo 'O número digitado foi: ', $num;
-    }
+        }
     ?>
-    
 </body>
 </html>

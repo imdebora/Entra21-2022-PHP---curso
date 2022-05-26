@@ -10,7 +10,7 @@
 </head>
 <body>
 <form method="post" >
-        Número: <input type="floatval" name="num">
+        Número: <input type="number" step="any" name="num">
         <input type= "submit">
     </form>
     <?php

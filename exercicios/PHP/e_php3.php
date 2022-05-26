@@ -1,4 +1,8 @@
 <!-- 3. Crie um comentario de mais de uma linha -->
 
-// Bom dia! 
-// Tudo bem?
+<?php
+/*
+* Bom dia!
+* Tudo bem?
+*/
+?>

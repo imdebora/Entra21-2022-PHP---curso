@@ -9,7 +9,7 @@
     <title>Exercicio 5</title>
 </head>
 <body>
-    <form method="post" >
+    <form method="post">
         Nome: <input type="text" name="text">
         <input type= "submit">
     </form>

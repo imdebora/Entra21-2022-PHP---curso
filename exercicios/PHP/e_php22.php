@@ -10,16 +10,20 @@
 </head>
 <body>
     <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
-        Entre com o Primeiro Termos da P.A: <input type="number" name="numero1">
-        Entre com a Razão da P.A: <input type="number" name="numero2">
+        Entre com o Primeiro Termos da P.A: <input type="float" name="numero1">
+        Entre com a Razão da P.A: <input type="float" name="numero2">
         <input type="submit">
     </form>
     <?php
     if($_SERVER['REQUEST_METHOD'] == "POST") {
         $n1 = $_POST['numero1'];
         $n2 = $_POST['numero2'];
+        $n3 = $n1+$n2;
 
-        for($n1; )
-
+        for ($n1&$n2; $n3 <= 20; $n3++){
+            echo $n3;
+        }
+    }
+    ?>
 </body>
 </html>
