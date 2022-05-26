@@ -3,7 +3,7 @@
 <?php
     $num1 = 1975;
 
-    $vetor = array(num1, 1975);
+    $vetor = array($num1);
     echo ($vetor);
     echo "<br>";
     
