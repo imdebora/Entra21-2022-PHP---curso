@@ -16,14 +16,24 @@
     </form>
     <?php
     if($_SERVER['REQUEST_METHOD'] == "POST") {
-        $n1 = $_POST['numero1'];
-        $n2 = $_POST['numero2'];
-        $n3 = $n1+$n2;
+        $a = $_POST['numero1'];
+        $d = $_POST['numero2'];
+        $b = array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20);
+        $arr = range($a,$b,$d);
+  
+        echo implode(", ",$arr);
 
-        for ($n1&$n2; $n3 <= 20; $n3++){
-            echo $n3;
+        for($i = 1; $i <= 10; $i++) {
+            echo $a . "\n";
+            $a = $a + $r;
+      
         }
+
+        
+  
     }
     ?>
 </body>
 </html>
+<?php
+  
