@@ -521,19 +521,6 @@ programa
 
 ### **IF/ ELSE/ SE/ SENAO SE/ SENAO**
 
-# **EXERCICIOS:**
-
-## ▶️[Exercicio 001](exercicios/exercicio_001.md)
-## ▶️[Exercicio 001B](exercicios/exercicio_001B.md)
-## ▶️[Exercicio 002](exercicios/exercicio_002.md) 
-## ▶️[Exercicio 002B](exercicios/exercicio_002B.md)
-## ▶️[Exercicio 003](exercicios/exercicio_003.md)
-## ▶️[Exercicio 003B](exercicios/exercicio_003B.md)
-## ▶️[Exercicio 004](exercicios/exercicio_004.md)
-## ▶️[Exercicio 004B](exercicios/exercicio_004B.md)
-## ▶️[Exercicio 004C](exercicios/exercicio_004C.md)
-## ▶️[Exercicio 005](exercicios/exercicio_005.md)
-
 ## [MANUAL DO PHP](https://www.php.net/manual/pt_BR/index.php)
 
 # **EXERCICIOS PORTUGOL:**
