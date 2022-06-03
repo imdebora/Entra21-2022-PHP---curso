@@ -24,7 +24,7 @@
 $path = "./";
 $diretorio = scandir($path);
 echo '<div class="box">';
-echo "<div><h1>Reforço parte 2</hi></div>";
+echo "<div><h1>Reforço parte 3</hi></div>";
 echo '</div>';
 $x = 0;
 

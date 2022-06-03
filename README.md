@@ -535,3 +535,17 @@ programa
 ## ▶️[Exercicio 005](exercicios/exercicio_005.md)
 
 ## [MANUAL DO PHP](https://www.php.net/manual/pt_BR/index.php)
+
+# **EXERCICIOS PORTUGOL:**
+
+## ▶️[001](exercicios/exercicios_portugol/exercicio_001.md)
+## ▶️[001B](exercicios/exercicios_portugol/exercicio_001B.md)
+## ▶️[002](exercicios/exercicios_portugol/exercicio_002.md)
+## ▶️[002B](exercicios/exercicios_portugol/exercicio_002B.md)
+## ▶️[003](exercicios/exercicios_portugol/exercicio_003.md)
+## ▶️[003B](exercicios/exercicios_portugol/exercicio_003B.md)
+## ▶️[004](exercicios/exercicios_portugol/exercicio_004.md)
+## ▶️[004B](exercicios/exercicios_portugol/exercicio_004B.md)
+## ▶️[004C](exercicios/exercicios_portugol/exercicio_004C.md)
+## ▶️[005](exercicios/exercicios_portugol/exercicio_005.md)
+
