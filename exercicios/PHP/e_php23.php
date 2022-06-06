@@ -17,6 +17,7 @@
     <?php
         if($_SERVER['REQUEST_METHOD'] == "POST"){
             $numero = $_POST["numero"];
+            echo "Tabuada de  $numero  : <br>";
             if($numero > 0 & $numero < 11){
                 for($i = 0; $i < 11; $i++)
                 echo "$i x $numero = " . $i*$numero . "<br>";

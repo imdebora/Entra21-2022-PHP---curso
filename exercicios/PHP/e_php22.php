@@ -14,7 +14,7 @@
         if (isset($_POST['enviar'])) {
             $num1 = $_POST['num1'];
             $razao = $_POST['razao'];
-
+            // $x é o contador de elementos
             for ($x = 1; $x <= 20; $x++) {                
                 echo "$num1 <br>";
                 $num1 += $razao;

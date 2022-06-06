@@ -6,3 +6,11 @@ $count = 1;
 for ($count; $count <= count($vetor); $count++){
     print $count.' - '.$vetor[$count-1]. "<br>";
 }
+?>
+<?php
+$str = "Projeto Entra21";
+$array = str_split($str);
+foreach($array as $x){
+    echo " : " . $x . " : <br>";
+}
+?>
