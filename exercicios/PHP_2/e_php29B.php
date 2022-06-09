@@ -15,14 +15,14 @@ $carro = array('malas' => $caixa1, 'banco' => $caixa2);
 echo "========================<br>COMPRAS DO PORTA MALAS<br>========================<br>" ;
 
 foreach($carro['malas'] as $caixas) {
-    foreach ($caixas as $itens) {
-        echo $itens . $br;
+    foreach ($caixas as $itens => $value) {
+        echo $itens . ' : ' . $value . $br;
     }
 }
 echo "====================<br>COMPRAS DO BANCO<br>====================<br>" ;
 foreach($carro['banco'] as $caixas) {
-    foreach ($caixas as $itens) {
-        echo $itens . $br;
+    foreach ($caixas as $itens => $value) {
+        echo $itens . ' : ' . $value . $br;
     }
 }
 ?>
