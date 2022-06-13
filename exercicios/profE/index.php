@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'e_php29.php';
+require_once 'pessoas.php';
 ?>
 <html>
 
@@ -30,9 +30,8 @@ require_once 'e_php29.php';
 
     // transforme esta impressao em links. 
      foreach ($cadastro as $id => $pessoa) {
-        echo "Nome:" . $pessoa['nome'] ."<a href=excluir.php?Delete=" . $id . "&Nome=" . $pessoa['nome'] . ">   Excluir  </a>" . $b;
+        echo "Nome:" . $pessoa['nome'] . "<a href=excluir.php?Delete=" . $id . "&Nome=" . $pessoa['nome'] . ">   Excluir  </a>" . $b;
     }
-    
 
     ?>
 

@@ -3,10 +3,10 @@ $br = '<br>';
 
 $cadastro = array(
     1 => array(
-        "nome" => "Marli"
+        "nome" => "Bruno"
     ),
     2 => array(
-        "nome" => "Bruno"
+        "nome" => "Marli"
     ),
     3 => array(
         "nome" => "Claudio"
@@ -22,4 +22,3 @@ $cadastro = array(
 if ( !$_SESSION['cadastro']){
     $_SESSION['cadastro'] = $cadastro;
 }
-?>
