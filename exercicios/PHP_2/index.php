@@ -1,45 +1,49 @@
-<?php
-session_start();
-require_once 'e_php29.php';
-?>
-<html>
-
-<body>
-    <form method="post" action=''>
-        <input type="text" name="nome"> <br />
-        <input type="submit" name="adicionar_cadastro" value="Adicionar cadastro">
-    </form>
-    <?php
-
-    $b = "<br>";
-
-    // if ($_GET['delete']){
-    //     xxx
-    //     xxx
-    //     xxxx
-    //     ????
-    // }
-
-    if (isset($_POST['restaura'])) {        
-        $_SESSION['cadastro'] = $cadastro;
-    };
-
-    if (isset($_POST['adicionar_cadastro'])) {        
-        array_push($cadastro, array("nome" => $_POST['nome']));
-    };
-
-    // transforme esta impressao em links. 
-     foreach ($cadastro as $id => $pessoa) {
-        echo "Nome:" . $pessoa['nome'] ."<a href=excluir.php?Delete=" . $id . "&Nome=" . $pessoa['nome'] . ">   Excluir  </a>" . $b;
-    }
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <style type="text/css">
+        .box {
+            display: flex;
+            align-items: center;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+        .one {
+            flex: 1 1 auto;
+        }
+        h1{
+            color: rgb(139, 0, 74);
+        }
+    </style>
     
+</head>
 
-    ?>
 
-    <form method="post">
-        <input type="submit" name="restaura" value="restaura">
-    </form>
 
-</body>
+<?php
+$path = "./";
+$diretorio = scandir($path);
+echo '<div class="box">';
+echo "<div><h1>Exercicios PHP parte 2</hi></div>";
+echo '</div>';
+$x = 0;
+
+echo '<div class="box" >';
+foreach ($diretorio as $arquivo) {
+    if ($x == 0) {
+        echo '<div class="one">';
+    }
+    echo '<br><a href="' . $path . $arquivo . '">' . "    " . $arquivo . "    " . '</a>';
+    $x++;
+    if ($x > 8) {
+        echo '</div>';
+        $x = 0;
+    }
+}
+echo "</div>";
+
+
+?>
 
 </html>
+
