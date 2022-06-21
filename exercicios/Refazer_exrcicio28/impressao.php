@@ -1,3 +1,7 @@
+<?php
+session_start();
+require_once 'base.php';
+?>
 <body>
     <form action="" method="post">
         <fieldset>
@@ -26,12 +30,19 @@
             $cep=$_POST['cep'];
             
             $cadastro_novo = array("nome" => $nome, "idade" => $idade, "cep" => $cep);
-            array_push($_SESSION['cadastro'], $cadastro_novo);
+            array_push($cadastro, $cadastro_novo);
         }
         if(isset($_POST['restaura'])){
             $_SESSION['cadastro'] = $cadastro;
         }
+        foreach($cadastro as $pessoas => $valor){
+            echo "<tr>";
+            echo "<td>" . $valor['nome'] . "</td>";
+            echo "<td>" . $valor['idade'] . "</td>";
+            echo "<td>" . $valor['cep'] . "</td>";
+            echo "</tr>";
+
+        }
         ?>
-
-
+    </table>
 </body>

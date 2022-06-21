@@ -10,7 +10,7 @@ $cadastro = array(
     "5" => array("nome" => "Thiago", "idade" => "23", "cep" => "88780-456")
 
 );
-if(!$_SESSION['usuarios']){
-    $_SESSION['usuarios']=$usuarios;
+if(!$_SESSION['cadastro']){
+    $_SESSION['cadastro']=$cadastro;
 }
 ?>
