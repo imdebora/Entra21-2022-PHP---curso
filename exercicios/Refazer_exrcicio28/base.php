@@ -1,7 +1,4 @@
 <?php
-$b = "<br /><br />";
-$titulo = "my site";
-$t = 2;
 $cadastro = array(
     "1" => array("nome" => "Marli", "idade" => "30", "cep" => "88780-123"),
     "2" => array("nome" => "Bruno", "idade" => "27", "cep" => "88702-456"),
@@ -11,6 +8,6 @@ $cadastro = array(
 
 );
 if(!$_SESSION['cadastro']){
-    $_SESSION['cadastro']=$cadastro;
+    $_SESSION['cadastro'] = $cadastro;
 }
 ?>

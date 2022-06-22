@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once 'base.php';
+$alteracao  = $_SESSION['cadastro'][$_GET['ID']];
 ?>
 <body>
     <form action="" method="post">
@@ -24,15 +25,17 @@ require_once 'base.php';
             <td coldspan="2">CEP</td>
         </tr>
         <?php
-        if (isset($_POST['enivar'])){
-            $nome=$_POST['nome'];
-            $idade=$_POST['idade'];
-            $cep=$_POST['cep'];
-            
-            $cadastro_novo = array("nome" => $nome, "idade" => $idade, "cep" => $cep);
-            array_push($cadastro, $cadastro_novo);
+       if (isset($_POST['enviar'])) {
+        $nome=$_POST['nome'];
+        $idade=$_POST['idade'];
+        $cep=$_POST['cep'];
+    
+        $cadastro_novo_cadastro=array("nome" => $nome, "idade" => $idade, "cep" => $cep
+        ); 
+        array_push($_SESSION['cadastro'], $cadastro_novo_cadastro);
+    
         }
-        if(isset($_POST['restaura'])){
+        if(!isset($_POST['restaura'])){
             $_SESSION['cadastro'] = $cadastro;
         }
         foreach($cadastro as $pessoas => $valor){
@@ -41,6 +44,7 @@ require_once 'base.php';
             echo "<td>" . $valor['idade'] . "</td>";
             echo "<td>" . $valor['cep'] . "</td>";
             echo "</tr>";
+            echo "<a href='alterar.php'><input type='submit' name='alterar' value='Enviar Alteração' {$nome}'><a/>"; 
 
         }
         ?>
