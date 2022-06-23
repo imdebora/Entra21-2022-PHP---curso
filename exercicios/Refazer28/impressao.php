@@ -2,33 +2,28 @@
 session_start();
 require_once 'base.php';
 ?>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="./formatacao.css">
-    </head>
-    <body>
-        <form action="" method="post">
-            <fieldset>
-                <legend>PHP</legend>
-                <label>Nome </label>
-                <input type="text" name="nome" placeholder="Seu nome aqui">
-                <label>Idade </label>
-                <input type="number" name="idade" placeholder="Sua idade aqui">
-                <label>CEP </label>
-                <input type="number" name="cep" placeholder="Seu CEP aqui">
-                <br><br>
-                <button type="submit" name="enviar"> Enviar Novo Cadastro </button>
-                <button type="submit" name="restaura"> Restaurar ao Original </button>
-            </fieldset>
-        </form>
-        <table>
-            <tr id="titulo">
-                <td>Nome</td>
-                <td>Idade</td>
-                <td coldspan="2">CEP</td>
-            </tr>
-            <?php
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>PHP</legend>
+            <label>Nome </label>
+            <input type="text" name="nome" placeholder="Seu nome aqui">
+            <label>Idade </label>
+            <input type="number" name="idade" placeholder="Sua idade aqui">
+            <label>CEP </label>
+            <input type="number" name="cep" placeholder="Seu CEP aqui">
+            <br><br>
+            <button type="submit" name="enviar"> Enviar Novo Cadastro </button>
+            <button type="submit" name="restaura"> Restaurar ao Original </button>
+        </fieldset>
+    </form>
+    <table>
+        <tr id="titulo">
+            <td>Nome</td>
+            <td>Idade</td>
+            <td coldspan="2">CEP</td>
+        </tr>
+        <?php
         if (isset($_POST['enviar'])) {
             $nome=$_POST['nome'];
             $idade=$_POST['idade'];
@@ -54,6 +49,5 @@ require_once 'base.php';
 
             }
             ?>
-        </table>
-    </body>
-</html>
+    </table>
+</body>
