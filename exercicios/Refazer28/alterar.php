@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once 'base.php';
+require_once 'head.php';
 $alteracao = $_SESSION['cadastro'][$_GET['ID']];
 ?>
 <body>
@@ -12,7 +13,7 @@ $alteracao = $_SESSION['cadastro'][$_GET['ID']];
             <label>Idade: </label>
             <input type="number" name="idade" value="<?php echo $alteracao['idade'];?>">
             <label>CEP: </label>
-            <input type="number" name="cep" value="<?php echo $alteracao['cep'];?>">
+            <input type="text" name="cep" value="<?php echo $alteracao['cep'];?>">
             <br><br>
             <button type="submit" name="enviar">Realizar Alteração</button>        
         </fieldset>
