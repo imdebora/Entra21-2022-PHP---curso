@@ -1,0 +1,36 @@
+label,input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    outline: nome;
+    font-size: 13pt;
+    width: 100%;
+}
+tr{
+    line-height: 30px;
+}
+tr#titulo{
+    font-weight: bold;
+    background-color: blueviolet;
+    color: white;
+}
+td{
+    padding: 0px 5px;
+    background-color: 0, 0, 0, .6;
+}
+a{
+    margin: 5px;
+}
+fieldset{
+    width: 50%;
+    border: 1px solid #900;
+    margin: auto;
+    margin-bottom: 30px;
+    background: linear-gradient(to left,rgb(88, 6, 100), rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+table{
+    width: 50%;
+    margin: auto;
+}

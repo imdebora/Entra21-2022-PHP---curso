@@ -1,3 +1,8 @@
+<?php
+session_start();
+require_once 'base.php';
+$alteracao = $_SESSION['cadastro'][$_GET['ID']];
+?>
 <body>
     <form action="" method="post">
         <fieldset>
@@ -9,7 +14,7 @@
             <label>Nome: </label>
             <input type="text" number="cep" value="<?php echo $alteracao['cep'];?>">
             <br><br>
-            <button type="submit" name="enviar">Enviar Alteração</button>        
+            <button type="submit" name="enviar">Realizar Alteração</button>        
         </fieldset>
     </form>
     <?php
@@ -22,7 +27,7 @@
         $_SESSION['cadastro'][$_GET['ID']]['idade'] = $idade;
         $_SESSION['cadastro'][$_GET['ID']]['cep'] = $cep;
 
-        header("refresh: 2;base.php");
+        header("refresh: $time;base.php");
     }
     ?>
 </body>
