@@ -1,4 +1,4 @@
 <?php
-$time = 3;
+$time = 2;
 $titulo = "MS";
 ?>

@@ -44,7 +44,7 @@ require_once 'base.php';
                 echo "<td>" . $valor['cep'] . "</td>";
                 echo "</tr>";
                 echo "<a href=excluir.php?nome=" . $pessoas . "&nome" . urldecode($valor['nome']) . "> Excluir </a>";
-                echo "<a href=alterar.php>ID=" . $pessoas ."> Alterar </a>"; 
+                echo "<a href=alterar.php?ID=" . $pessoas . "> Alterar </a>"; 
         
 
             }

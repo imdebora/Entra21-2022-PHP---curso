@@ -10,9 +10,9 @@ $alteracao = $_SESSION['cadastro'][$_GET['ID']];
             <label>Nome: </label>
             <input type="text" name="nome" value="<?php echo $alteracao['nome'];?>">
             <label>Idade: </label>
-            <input type="text" number="idade" value="<?php echo $alteracao['idade'];?>">
-            <label>Nome: </label>
-            <input type="text" number="cep" value="<?php echo $alteracao['cep'];?>">
+            <input type="number" name="idade" value="<?php echo $alteracao['idade'];?>">
+            <label>CEP: </label>
+            <input type="number" name="cep" value="<?php echo $alteracao['cep'];?>">
             <br><br>
             <button type="submit" name="enviar">Realizar Alteração</button>        
         </fieldset>
@@ -27,7 +27,7 @@ $alteracao = $_SESSION['cadastro'][$_GET['ID']];
         $_SESSION['cadastro'][$_GET['ID']]['idade'] = $idade;
         $_SESSION['cadastro'][$_GET['ID']]['cep'] = $cep;
 
-        header("refresh: $time;base.php");
+        header("refresh: $time;impressao.php");
     }
     ?>
 </body>
