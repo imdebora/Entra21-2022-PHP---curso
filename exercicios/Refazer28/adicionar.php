@@ -10,7 +10,7 @@ if(isset($_POST['adicionar'])){
         "cep" => $cep
     );
 
-    array_push($_SESSION['cadastro'], $novo_cadastro);
+    array_push($cadastro, $novo_cadastro);
 }
 if(isset($_POST['restaura'])){
     $_SESSION['cadastro'] = $cadastro;

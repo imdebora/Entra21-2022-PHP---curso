@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <body>
     <table>
         <tr id="titulo">
