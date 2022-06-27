@@ -14,6 +14,7 @@ echo '<script>window.location="user.php";</script>';
 }else {
 
 echo '<header><h1>Usuario ou Senha invalido!</h1></header>';
+header("refresh: $tt; index.php");
 
 }
 

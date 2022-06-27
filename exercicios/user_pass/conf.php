@@ -1,7 +1,7 @@
 <?php
 $b = "<br>";
 $titulo = "UP";
-$tt = 3; 
+$tt = 2; 
 $usuario = "adm";
 $senha = "123";
 ?>
