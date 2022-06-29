@@ -1,5 +1,3 @@
-## EXERCICIO 1
-
 Marcas:
 :   ID  :   Carros          :   
 :   1   :   HB20            :
