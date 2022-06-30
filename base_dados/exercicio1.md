@@ -1,3 +1,5 @@
+## EXERCICIO 1
+
 Marcas:
 :   ID  :   Carros          :   
 :   1   :   HB20            :
@@ -14,4 +16,4 @@ Pedidos:
 :   ID  :   Vendedor    :   Clientes    :   Estoque_id      :   Carros_id   :
 :   1   :   Carlos      :   Julia       :   1               :   2           :
 :   2   :   Douglas     :   Leandro     :   3               :   1           :
-:   3   :   Maria       :   Luiza       :   2               :   3           :
+:   3   :   Maria       :   Luiza       :   2               :   3           ;
