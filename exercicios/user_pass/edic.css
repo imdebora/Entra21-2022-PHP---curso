@@ -1,0 +1,9 @@
+fieldset{
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto;
+    margin-bottom: 30px;
+    background: linear-gradient(to left,rgb(253, 66, 132), rgb(255, 250, 105));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
