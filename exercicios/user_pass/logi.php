@@ -5,8 +5,10 @@ require_once 'conf.php';
 require_once 'form.php';
 
 if (($login == $usuario) && ($pass == $senha)){
-    echo '<script>window.location="user.php";</script>';
+    $_SESSION['user'] = $login;
+    $_SESSION['pass'] = $pass;
 
+    echo '<script>window.location="user.php";</script>';
 }
 else if(($login == "") && ($pass == "")){
     echo '<header><h1>Por favor, preencha todos os campos!</h1></header>';
