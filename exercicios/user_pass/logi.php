@@ -5,7 +5,7 @@ require_once 'cabe.php';
 require_once 'form.php';
 
 
-if (($login == $usuario) && ($pass == $senha)){
+if (($login == $usuario1 && $pass == $senha1) || ($login == $usuario2 && $pass == $senha2)){
     $_SESSION['user'] = $login;
     $_SESSION['pass'] = $pass;
 

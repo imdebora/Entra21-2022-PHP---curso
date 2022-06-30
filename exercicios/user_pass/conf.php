@@ -1,13 +1,18 @@
 <?php
 $b = "<br>";
-$titulo = "UP";
+$titulo = "User_Pass";
 $tt = 2; 
-$usuario = "adm";
-$senha = "123";
 
 $login = @$_POST["login"];
-
 $pass = @$_POST["senha"];
+$submit = @$_POST['entrar'];
+
+$usuario1 = "adm";
+$senha1 = "123";
+
+$usuario2 = "debora";
+$senha2 = "lima";
+
 
 // $logar = $login && $pass;
 // $verificar = $login;
