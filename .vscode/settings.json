@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "test",
+            "database": "${workspaceFolder:Entra21-2022-PHP---curso}/base_dados/modulo_05/modulo5.sql"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
