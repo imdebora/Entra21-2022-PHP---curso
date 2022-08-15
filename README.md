@@ -536,4 +536,8 @@ programa
 ## ▶️[004C](exercicios/exercicios_portugol/exercicio_004C.md)
 ## ▶️[005](exercicios/exercicios_portugol/exercicio_005.md)
 
-git config user.name "Debora Lima"
+# **EXERCICIOS PHP:**
+
+## ▶️[PHP](exercicios/PHP)
+
+

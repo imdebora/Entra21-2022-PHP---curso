@@ -11,8 +11,8 @@ tr{
 }
 tr#titulo{
     font-weight: bold;
-    background-color: blueviolet;
-    color: white;
+    background-color: rgb(143, 5, 150);
+    color: rgb(238, 186, 243);
 }
 td{
     padding: 0px 5px;
@@ -26,7 +26,7 @@ fieldset{
     border: 1px solid #900;
     margin: auto;
     margin-bottom: 30px;
-    background: linear-gradient(to left,rgb(88, 6, 100), rgb(255, 255, 255));
+    background: linear-gradient(to left,rgb(103, 4, 88), rgb(255, 225, 244));
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
