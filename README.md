@@ -523,7 +523,7 @@ programa
 
 ## [MANUAL DO PHP](https://www.php.net/manual/pt_BR/index.php)
 
-# **EXERCICIOS PORTUGOL:**
+# **EXERCÍCIOS DO PORTUGOL:**
 
 ## ▶️[001](exercicios/exercicios_portugol/exercicio_001.md)
 ## ▶️[001B](exercicios/exercicios_portugol/exercicio_001B.md)
@@ -536,8 +536,27 @@ programa
 ## ▶️[004C](exercicios/exercicios_portugol/exercicio_004C.md)
 ## ▶️[005](exercicios/exercicios_portugol/exercicio_005.md)
 
-# **EXERCICIOS PHP:**
+# **EXERCÍCIOS DE PHP:**
 
 ## ▶️[PHP](exercicios/PHP)
+## ▶️[PHP VERSÃO 2](exercicios/PHP_2)
+## ▶️[REALIZAR CADASTRO](exercicios/Refazer28)
+## ▶️[REFORÇO](exercicios/Reforco)
+## ▶️[REFORÇO VERSÃO 2](exercicios/Reforco2)
+## ▶️[REFORÇO VERSÃO 3](exercicios/Reforco3)
+## ▶️[USER PASS](exercicios/user_pass)
+## ▶️[VARIÁVEIS](exercicios/www)
+
+# **EXERCÍCIOS DE BANCO DE DADOS:**
+
+## ▶️[MÓDULO 03](base_dados/modulo_03)
+## ▶️[MÓDULO 04](base_dados/modulo_04)
+## ▶️[MÓDULO 05](base_dados/modulo_05)
+## ▶️[MÓDULO 06](base_dados/modulo_06)
+## ▶️[NOVO 28](base_dados/novo28)
+## ▶️[EXERCÍCIO 200](exer200)
+## ▶️[EXERCÍCIO 201](exer2001)
+
+
 
 
