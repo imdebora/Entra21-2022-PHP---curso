@@ -1,9 +1,11 @@
 <?php
+require_once 'config.php';
 function ExcluirPessoa(){
-    require_once 'config.php';
+    
     $db = $_SESSION['db'];
-    $id = $_GET['ID'];
-    $delete = "DELETE FROM PESSOAS WHERE PESSOA_ID = $id";
+    $id = $_GET['PESSOA_ID'];
+    $delete = "DELETE FROM PESSOAS WHERE PESSOA_ID =" . $id;
+    
     $db->query($delete);
     header("refresh: 0; index.php");}
     ExcluirPessoa();

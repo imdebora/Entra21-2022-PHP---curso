@@ -7,15 +7,15 @@
 ?>
 <form method="POST">
     <fieldset>     
-        <legend>Alterar cadastro</legend>
+        <legend>ALTERAR CADASTRO</legend>
             <br>
-            Nome novo: <input type="text" name="nome_novo">
+            Novo nome: <input type="text" name="nome_novo">
             <br><br>
-            Idade nova: <input type="number" name="idade_nova">
+            Nova idade: <input type="number" name="idade_nova">
             <br><br>
-            CEP novo: <input type="text" name="cep_novo">
+            Novo CEP: <input type="text" name="cep_novo">
             <br><br>
-            Saldo novo: <input type="text" name="saldo_novo">
+            Novo saldo: <input type="text" name="saldo_novo">
             <br><br>
             <input type="submit" name="alterar" value="Alterar">
     </fieldset>

@@ -6,7 +6,7 @@
             <td coldspan="2">CEP</td>
             <td>Saldo</td>
             <td>Excluir</td>
-            <td>alterar</td>
+            <td>Alterar</td>
         </tr>
         <?php
         require_once 'config.php';
@@ -19,7 +19,7 @@
                 echo "<td>" . $valor['PESSOA_CEP']. "</td>";
                 echo "<td>" . $valor['PESSOA_SALDO']. "</td>";
                 echo "<td>" . "<a href=excluir.php?Delete=" . $pessoas . "&nome=" . urldecode($valor['PESSOA_NOME']) . "> Excluir </a>" . "</td>";
-                echo "<td>" . "<a href=alterar.php?ID=" . $pessoas . "> Alterar </a>" . "</td>"; 
+                echo "<td>" . "<a href=alterar.php?Alterar=" . $pessoas . "&nome=" . urldecode($valor['PESSOA_NOME']) . "> Alterar </a>" . "</td>"; 
                 echo "</tr>";        
             }
             ?>

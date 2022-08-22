@@ -6,7 +6,7 @@ $valuesaldo = "";
 ?>
 <form method="post" action="">
         <fieldset>
-            <legend>PHP</legend>
+            <legend>CADASTRAR USUÁRIO</legend>
             <label>Nome: </label>
             <input type="text" value="<?php echo $valuenome ?>" name="nome">
             <label>Idade: </label>
@@ -17,13 +17,14 @@ $valuesaldo = "";
             <input type="text" value="<?php echo $valuesaldo ?>" name="saldo">
             <br><br>
             <?php
-            if ($_SESSION['adicionar'] == True){ ?>
+            if (isset($_POST['atualizar'])){ ?>
                 <button type="submit" name="atualizar"> Atualizar Cadastro </button>
             <?php
             } else { ?>
                 <button type="submit" name="adicionar"> Adicionar Cadastro </button>
+                <!-- <input type="submit" name="adicionar" value="Adicionar Cadastro"> -->
             <?php } ?>
 
-            <button type="submit" name="restaura"> Restaurar ao Original </button>
+            <!-- <button type="submit" name="restaura"> Restaurar ao Original </button> -->
         </fieldset>
 </form>

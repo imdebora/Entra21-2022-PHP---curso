@@ -26,8 +26,6 @@ if(isset($_POST['adicionar'])){
     return $db->lastInsertId() ;
 
 }
-
-if(isset($_POST['restaura'])){
-    $_SESSION['db'] = $db;
-}
+unset($db);
+unset($_SESSION['db']);
 ?>
