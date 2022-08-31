@@ -557,6 +557,9 @@ programa
 ## ▶️[EXERCÍCIO 200](exer200)
 ## ▶️[EXERCÍCIO 201](exer2001)
 
+# **AULAS DE LARAVEL**
+
+## ▶️[ONLINE STORE](aula_laravel/onlineStore)
 
 
 
