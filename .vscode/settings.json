@@ -5,6 +5,19 @@
             "driver": "SQLite",
             "name": "test",
             "database": "${workspaceFolder:Entra21-2022-PHP---curso}/base_dados/modulo_05/modulo5.sql"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "3.89.36.150",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Entra21",
+            "database": "phpe2122g2",
+            "username": "phpe2122g2",
+            "password": "phpe2122g2@22@ago"
         }
     ],
     "sqltools.useNodeRuntime": true
